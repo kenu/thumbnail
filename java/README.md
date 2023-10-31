@@ -1,6 +1,13 @@
 # Thumbnailator Example
 
-## Maven init
+## build
+
+```bash
+mvn clean package
 ```
-mvn archetype:generate -DgroupId=com.okdevtv.thumbnail -DartifactId=thumbnail -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+## run
+
+```bash
+java -jar target/image-thumbnail-1.0-SNAPSHOT.jar
 ```
